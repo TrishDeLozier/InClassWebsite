@@ -50,11 +50,11 @@ namespace InClassWebsite
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "358551292302-ttlo3a2kf9nrtqt4f9a76ld9e5efvhlv.apps.googleusercontent.com",
+                ClientSecret = "Mypi_oLzmGjp8Ply9znA2OzU"
+            });
         }
     }
 }
