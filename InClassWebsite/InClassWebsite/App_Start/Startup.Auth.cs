@@ -46,9 +46,9 @@ namespace InClassWebsite
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "662941123784152",
+               appSecret: "2cee3a027602e4ee6a2a417b3cb6088a");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
