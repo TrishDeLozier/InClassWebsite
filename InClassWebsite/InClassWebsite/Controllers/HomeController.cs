@@ -16,7 +16,7 @@ namespace InClassWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "MVC Development";
 
             return View();
         }
